@@ -1,1 +1,780 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>María Ruiz | Desarrolladora Web Frontend</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ESTRELLAS DECORATIVAS -->
+    <div class="estrella estrella1">✦</div>
+    <div class="estrella estrella2">✧</div>
+    <div class="estrella estrella3">✦</div>
+    <div class="estrella estrella4">✧</div>
+
+
+    <!-- =========================
+         HEADER Y NAVEGACIÓN
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                🪽 María Ruiz
+            </a>
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#acerca">Acerca de mí</a>
+                </li>
+
+                <li>
+                    <a href="#habilidades">Habilidades</a>
+                </li>
+
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================
+             INICIO
+        ========================== -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-contenido">
+
+                <div class="ala-grande">
+                    🪽
+                </div>
+
+                <p class="saludo">
+                    ¡Hola! Soy
+                </p>
+
+                <h1>
+                    María Ruiz
+                </h1>
+
+                <h2>
+                    Desarrolladora Web Frontend
+                </h2>
+
+                <p>
+                    Me apasiona crear páginas web bonitas,
+                    funcionales y fáciles de utilizar. ✨
+                </p>
+
+                <a
+                    href="#proyectos"
+                    class="boton"
+                >
+                    Ver mis proyectos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ACERCA DE MÍ
+        ========================== -->
+
+        <section id="acerca" class="seccion acerca">
+
+            <div class="titulo-seccion">
+
+                <span>✦</span>
+
+                <h2>
+                    Acerca de mí
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="acerca-contenido">
+
+                <div class="acerca-icono">
+                    🪽
+                </div>
+
+
+                <div class="acerca-texto">
+
+                    <h3>
+                        ¡Hola! Soy María 💕
+                    </h3>
+
+                    <p>
+                        Soy estudiante y desarrolladora web
+                        frontend, interesada en aprender cada
+                        día más sobre el desarrollo de páginas web.
+                    </p>
+
+                    <p>
+                        Me gusta crear diseños agradables,
+                        organizar correctamente el contenido
+                        y utilizar HTML, CSS y JavaScript para
+                        convertir ideas en páginas web
+                        interactivas.
+                    </p>
+
+                    <p>
+                        Uno de mis proyectos principales es
+                        <strong>Angel's Fashion World</strong>,
+                        una tienda web de moda, belleza,
+                        cuidado personal y accesorios que
+                        desarrollé como proyecto de aprendizaje. 🩷
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HABILIDADES
+        ========================== -->
+
+        <section id="habilidades" class="seccion habilidades">
+
+            <div class="titulo-seccion">
+
+                <span>✦</span>
+
+                <h2>
+                    Mis habilidades
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <p class="descripcion-seccion">
+                Estas son algunas de las tecnologías y
+                habilidades que estoy desarrollando.
+            </p>
+
+
+            <div class="habilidades-grid">
+
+
+                <!-- HTML -->
+
+                <article class="habilidad-card">
+
+                    <div class="habilidad-nombre">
+
+                        <span>
+                            HTML
+                        </span>
+
+                        <span>
+                            61%
+                        </span>
+
+                    </div>
+
+                    <div class="barra">
+
+                        <div
+                            class="progreso html"
+                            data-porcentaje="61"
+                        ></div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CSS -->
+
+                <article class="habilidad-card">
+
+                    <div class="habilidad-nombre">
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            61%
+                        </span>
+
+                    </div>
+
+                    <div class="barra">
+
+                        <div
+                            class="progreso css"
+                            data-porcentaje="61"
+                        ></div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JAVASCRIPT -->
+
+                <article class="habilidad-card">
+
+                    <div class="habilidad-nombre">
+
+                        <span>
+                            JavaScript
+                        </span>
+
+                        <span>
+                            61%
+                        </span>
+
+                    </div>
+
+                    <div class="barra">
+
+                        <div
+                            class="progreso javascript"
+                            data-porcentaje="61"
+                        ></div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RESPONSIVE -->
+
+                <article class="habilidad-card">
+
+                    <div class="habilidad-nombre">
+
+                        <span>
+                            Diseño Responsive
+                        </span>
+
+                        <span>
+                            70%
+                        </span>
+
+                    </div>
+
+                    <div class="barra">
+
+                        <div
+                            class="progreso responsive"
+                            data-porcentaje="70"
+                        ></div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROYECTOS
+        ========================== -->
+<section id="proyectos" class="seccion proyectos">
+
+            <div class="titulo-seccion">
+
+                <span>✦</span>
+
+                <h2>
+                    Mis proyectos
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <p class="descripcion-seccion">
+                Algunos de los proyectos que he desarrollado
+                durante mi aprendizaje.
+            </p>
+
+
+            <div class="proyectos-grid">
+
+
+                <!-- =========================
+                     ANGEL'S FASHION WORLD
+                ========================== -->
+
+                <article class="proyecto-card">
+
+                    <div class="proyecto-imagen">
+                        🪽
+                    </div>
+
+
+                    <div class="proyecto-contenido">
+
+                        <span class="etiqueta">
+                            Proyecto principal
+                        </span>
+
+                        <h3>
+                            Angel's Fashion World
+                        </h3>
+
+                        <p>
+                            Tienda web de moda, belleza,
+                            Skin Care y accesorios,
+                            desarrollada con HTML, CSS
+                            y JavaScript.
+                        </p>
+
+
+                        <div class="tecnologias">
+
+                            <span>
+                                HTML
+                            </span>
+
+                            <span>
+                                CSS
+                            </span>
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                        </div>
+
+
+                        <!-- ENLACE REAL DE ANGEL'S -->
+
+                        <a
+                            href="https://marymajmr1.github.io/angels-fashion-world/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="proyecto-boton"
+                        >
+                            Ver proyecto →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================
+                     PROYECTO 2
+                ========================== -->
+
+                <article class="proyecto-card">
+
+                    <div class="proyecto-imagen">
+                        💻
+                    </div>
+
+
+                    <div class="proyecto-contenido">
+
+                        <span class="etiqueta">
+                            Proyecto web
+                        </span>
+
+                        <h3>
+                            Página Web Interactiva
+                        </h3>
+
+                        <p>
+                            Proyecto realizado para practicar
+                            JavaScript, eventos, manipulación
+                            del DOM y elementos interactivos.
+                        </p>
+
+
+                        <div class="tecnologias">
+
+                            <span>
+                                HTML
+                            </span>
+
+                            <span>
+                                CSS
+                            </span>
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="proyecto-boton"
+                            data-proyecto="interactiva"
+                        >
+                            Ver proyecto →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================
+                     PROYECTO 3
+                ========================== -->
+
+                <article class="proyecto-card">
+
+                    <div class="proyecto-imagen">
+                        ✨
+                    </div>
+
+
+                    <div class="proyecto-contenido">
+
+                        <span class="etiqueta">
+                            Proyecto creativo
+                        </span>
+
+                        <h3>
+                            Diseño Web Creativo
+                        </h3>
+
+                        <p>
+                            Diseño realizado para practicar
+                            estructuras, estilos, animaciones
+                            y adaptación a diferentes pantallas.
+                        </p>
+
+
+                        <div class="tecnologias">
+
+                            <span>
+                                HTML
+                            </span>
+
+                            <span>
+                                CSS
+                            </span>
+
+                            <span>
+                                Responsive
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="proyecto-boton"
+                            data-proyecto="creativo"
+                        >
+                            Ver proyecto →
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section id="contacto" class="seccion contacto">
+
+            <div class="titulo-seccion">
+
+                <span>✦</span>
+
+                <h2>
+                    Contáctame
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="contacto-contenido">
+
+
+                <!-- INFORMACIÓN DE CONTACTO -->
+
+                <div class="informacion-contacto">
+
+
+                    <div class="dato-contacto">
+
+                        <span>
+                            📧
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                maria9713mra@gmail.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dato-contacto">
+
+                        <span>
+                            📱
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Teléfono
+                            </h3>
+
+                            <p>
+                                3170948192
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dato-contacto">
+
+                        <span>
+                            📍
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Ubicación
+                            </h3>
+
+                            <p>
+                                Cali, Colombia
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULARIO -->
+
+                <form
+                    id="formularioContacto"
+                    class="formulario"
+                    novalidate
+                >
+
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Escribe tu nombre"
+                        >
+
+                        <small id="errorNombre"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="email">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="ejemplo@gmail.com"
+                        >
+
+                        <small id="errorEmail"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="5"
+                            placeholder="Escribe tu mensaje"
+                        ></textarea>
+
+                        <small id="errorMensaje"></small>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="boton enviar"
+                    >
+                        Enviar mensaje 💌
+                    </button>
+
+
+                    <p
+                        id="mensajeExito"
+                        class="mensaje-exito"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         MODAL
+    ========================== -->
+
+    <div
+        id="modalProyecto"
+        class="modal"
+    >
+
+        <div class="modal-contenido">
+
+            <button
+                id="cerrarModal"
+                class="cerrar-modal"
+                aria-label="Cerrar"
+            >
+                ×
+            </button>
+
+
+            <div
+                id="modalIcono"
+                class="modal-icono"
+            >
+                🪽
+            </div>
+
+
+            <h2 id="modalTitulo">
+                Proyecto
+            </h2>
+
+
+            <p id="modalTexto">
+                Información del proyecto.
+            </p>
+
+
+            <button
+                id="modalAccion"
+                class="boton"
+            >
+                Cerrar
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <p>
+            🪽 María Ruiz 🪽
+        </p>
+
+        <p>
+            Desarrolladora Web Frontend
+        </p>
+
+        <p>
+            © 2026 Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
